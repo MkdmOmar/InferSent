@@ -1,0 +1,7 @@
+.idea/
+*~
+dataset/GloVe/
+dataset/MultiNLI/
+dataset/SNLI/
+encoder/infersent.allnli.pickle
+~.pyc
