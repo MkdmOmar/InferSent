@@ -15,8 +15,11 @@ sentences = [u"We will unveil details of the product next year.",
              u"Next quarter, we expect to release 3 billion in dividends to investors.",
              u"Well thank you very much and I want to add one more thing please.",
              u"Operator. It is you turn. Your mic is open",
-             u"We will have more to say on that during our event next month."]
-sentenceLabels = ["red", "green", "green", "red", "red", "blue", "green", "red"]
+             u"We will have more to say on that during our event next month.",
+             u"We don't think about it that way really.",
+             u"We hope you will love it!",
+             u"The cloud services have been great and we added many more customers."]
+sentenceLabels = ["red", "green", "green", "red", "red", "blue", "green", "red", "blue", "red", "green"]
 
 infersent.build_vocab(sentences, tokenize=True)
 
